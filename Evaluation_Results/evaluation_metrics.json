@@ -1,0 +1,349 @@
+{
+    "metrics": {
+        "category_accuracy": 0.7415212169735789,
+        "subcategory_accuracy": 0.5299919935948759,
+        "category_report": {
+            "Any Other Cyber Crime": {
+                "precision": 0.3724049824337272,
+                "recall": 0.3177111716621253,
+                "f1-score": 0.3428907513600941,
+                "support": 3670.0
+            },
+            "Child Pornography CPChild Sexual Abuse Material CSAM": {
+                "precision": 0.5609756097560976,
+                "recall": 0.18699186991869918,
+                "f1-score": 0.2804878048780488,
+                "support": 123.0
+            },
+            "Cryptocurrency Crime": {
+                "precision": 0.7126436781609196,
+                "recall": 0.37349397590361444,
+                "f1-score": 0.4901185770750988,
+                "support": 166.0
+            },
+            "Cyber Attack/ Dependent Crimes": {
+                "precision": 0.9944794952681388,
+                "recall": 1.0,
+                "f1-score": 0.9972321075523922,
+                "support": 1261.0
+            },
+            "Cyber Terrorism": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 52.0
+            },
+            "Hacking  Damage to computercomputer system etc": {
+                "precision": 0.5238095238095238,
+                "recall": 0.07432432432432433,
+                "f1-score": 0.1301775147928994,
+                "support": 592.0
+            },
+            "Online Cyber Trafficking": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 61.0
+            },
+            "Online Financial Fraud": {
+                "precision": 0.7928396708917056,
+                "recall": 0.9434271803556308,
+                "f1-score": 0.8616031512046591,
+                "support": 18896.0
+            },
+            "Online Gambling  Betting": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 134.0
+            },
+            "Online and Social Media Related Crime": {
+                "precision": 0.5967994979604644,
+                "recall": 0.45953128775066443,
+                "f1-score": 0.5192465192465192,
+                "support": 4139.0
+            },
+            "Ransomware": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 18.0
+            },
+            "RapeGang Rape RGRSexually Abusive Content": {
+                "precision": 1.0,
+                "recall": 0.9046052631578947,
+                "f1-score": 0.9499136442141624,
+                "support": 912.0
+            },
+            "Sexually Explicit Act": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 535.0
+            },
+            "Sexually Obscene material": {
+                "precision": 0.3826086956521739,
+                "recall": 0.06606606606606606,
+                "f1-score": 0.11267605633802817,
+                "support": 666.0
+            },
+            "accuracy": 0.7415212169735789,
+            "macro avg": {
+                "precision": 0.4240400824237679,
+                "recall": 0.30901079565278705,
+                "f1-score": 0.33459615190442166,
+                "support": 31225.0
+            },
+            "weighted avg": {
+                "precision": 0.6961289976706879,
+                "recall": 0.7415212169735789,
+                "f1-score": 0.707132794332618,
+                "support": 31225.0
+            }
+        },
+        "subcategory_report": {
+            "Business Email CompromiseEmail Takeover": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 90.0
+            },
+            "Cheating by Impersonation": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 719.0
+            },
+            "Cryptocurrency Fraud": {
+                "precision": 0.6779661016949152,
+                "recall": 0.4819277108433735,
+                "f1-score": 0.5633802816901409,
+                "support": 166.0
+            },
+            "Cyber Bullying  Stalking  Sexting": {
+                "precision": 0.5608108108108109,
+                "recall": 0.2430453879941435,
+                "f1-score": 0.3391215526046987,
+                "support": 1366.0
+            },
+            "Cyber Terrorism": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 52.0
+            },
+            "Damage to computer computer systems etc": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 39.0
+            },
+            "Data Breach/Theft": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 171.0
+            },
+            "DebitCredit Card FraudSim Swap Fraud": {
+                "precision": 0.7246153846153847,
+                "recall": 0.6622609673790776,
+                "f1-score": 0.6920364384366735,
+                "support": 3556.0
+            },
+            "DematDepository Fraud": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 222.0
+            },
+            "Denial of Service (DoS)/Distributed Denial of Service (DDOS) attacks": {
+                "precision": 0.2222222222222222,
+                "recall": 0.0106951871657754,
+                "f1-score": 0.02040816326530612,
+                "support": 187.0
+            },
+            "EMail Phishing": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 54.0
+            },
+            "EWallet Related Fraud": {
+                "precision": 0.6761904761904762,
+                "recall": 0.26532137518684606,
+                "f1-score": 0.38110574342458403,
+                "support": 1338.0
+            },
+            "Email Hacking": {
+                "precision": 0.3870967741935484,
+                "recall": 0.18461538461538463,
+                "f1-score": 0.25,
+                "support": 130.0
+            },
+            "FakeImpersonating Profile": {
+                "precision": 0.46462264150943394,
+                "recall": 0.2581913499344692,
+                "f1-score": 0.33192923336141533,
+                "support": 763.0
+            },
+            "Fraud CallVishing": {
+                "precision": 0.39183673469387753,
+                "recall": 0.052545155993431854,
+                "f1-score": 0.09266409266409266,
+                "support": 1827.0
+            },
+            "Hacking/Defacement": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 200.0
+            },
+            "Impersonating Email": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 13.0
+            },
+            "Internet Banking Related Fraud": {
+                "precision": 0.8073170731707318,
+                "recall": 0.4453414059872183,
+                "f1-score": 0.5740299154563191,
+                "support": 2973.0
+            },
+            "Intimidating Email": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 11.0
+            },
+            "Malware Attack": {
+                "precision": 0.13541666666666666,
+                "recall": 0.07647058823529412,
+                "f1-score": 0.09774436090225563,
+                "support": 170.0
+            },
+            "Online Gambling  Betting": {
+                "precision": 0.5333333333333333,
+                "recall": 0.05970149253731343,
+                "f1-score": 0.10738255033557047,
+                "support": 134.0
+            },
+            "Online Job Fraud": {
+                "precision": 0.29069767441860467,
+                "recall": 0.17006802721088435,
+                "f1-score": 0.2145922746781116,
+                "support": 294.0
+            },
+            "Online Matrimonial Fraud": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 38.0
+            },
+            "Online Trafficking": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 61.0
+            },
+            "Other": {
+                "precision": 0.3187454412837345,
+                "recall": 0.4762942779291553,
+                "f1-score": 0.38190954773869346,
+                "support": 3670.0
+            },
+            "Profile Hacking Identity Theft": {
+                "precision": 0.525691699604743,
+                "recall": 0.35419440745672437,
+                "f1-score": 0.4232299124900557,
+                "support": 751.0
+            },
+            "Provocative Speech for unlawful acts": {
+                "precision": 0.55,
+                "recall": 0.08461538461538462,
+                "f1-score": 0.14666666666666667,
+                "support": 130.0
+            },
+            "Ransomware": {
+                "precision": 1.0,
+                "recall": 0.05555555555555555,
+                "f1-score": 0.10526315789473684,
+                "support": 18.0
+            },
+            "Ransomware Attack": {
+                "precision": 0.15311004784688995,
+                "recall": 0.34408602150537637,
+                "f1-score": 0.2119205298013245,
+                "support": 186.0
+            },
+            "SQL Injection": {
+                "precision": 0.16666666666666666,
+                "recall": 0.017964071856287425,
+                "f1-score": 0.032432432432432434,
+                "support": 167.0
+            },
+            "Tampering with computer source documents": {
+                "precision": 0.1375,
+                "recall": 0.5103092783505154,
+                "f1-score": 0.21663019693654267,
+                "support": 194.0
+            },
+            "UPI Related Frauds": {
+                "precision": 0.5472687644735049,
+                "recall": 0.9038245219347582,
+                "f1-score": 0.6817410487018497,
+                "support": 8890.0
+            },
+            "Unauthorised AccessData Breach": {
+                "precision": 0.8333333333333334,
+                "recall": 0.04054054054054054,
+                "f1-score": 0.07731958762886598,
+                "support": 370.0
+            },
+            "Website DefacementHacking": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 39.0
+            },
+            "NaN": {
+                "precision": 0.6674228675136116,
+                "recall": 0.657871198568873,
+                "f1-score": 0.6626126126126126,
+                "support": 2236.0
+            },
+            "micro avg": {
+                "precision": 0.5300768737988469,
+                "recall": 0.5299919935948759,
+                "f1-score": 0.5300344302986628,
+                "support": 31225.0
+            },
+            "macro avg": {
+                "precision": 0.3077675632640711,
+                "recall": 0.18158397975418236,
+                "f1-score": 0.18868915142065568,
+                "support": 31225.0
+            },
+            "weighted avg": {
+                "precision": 0.5285972626250895,
+                "recall": 0.5299919935948759,
+                "f1-score": 0.48631825460138334,
+                "support": 31225.0
+            }
+        },
+        "confidence_scores": {
+            "category": {
+                "mean": 0.7603241801261902,
+                "std": 0.21795153617858887
+            },
+            "subcategory": {
+                "mean": 0.5631572604179382,
+                "std": 0.23823562264442444
+            }
+        }
+    },
+    "data_stats": {
+        "original_size": 31229,
+        "evaluated_size": 31225
+    }
+}
