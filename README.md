@@ -1,9 +1,11 @@
-# Cybersecurity Incident Classification Project Report
+# Real-Time NLP for Cybercrime Reporting
+
+## Problem Statement
+Development of an NLP Model to guide citizens in filing cybercrime reports on the National Cyber Crime Reporting Portal (NCRP) correctly through a real time analysis of the description and incident supporting media files uploaded by the citizen.
 
 ## Introduction
-In an era where cyber threats continue to evolve and proliferate, the ability to accurately classify and respond to cybersecurity incidents has become crucial for organizations worldwide. This project addresses this challenge through the development of a sophisticated neural network-based classification system that can automatically categorize cyber incidents based on textual descriptions. The system employs a hierarchical classification approach, capable of identifying both broad categories and specific subcategories of cyber threats, making it a valuable tool for security operations centers and incident response teams.
-
-The project leverages advanced natural language processing (NLP) techniques and deep learning architectures to process and classify cyber incident reports. With a dataset of over 31,000 incidents, our model aims to streamline the incident triage process and improve response times by automating the initial classification step. This report presents our findings, evaluation metrics, and recommendations for future improvements.
+In a time when cyber threats are increasingly complex and widespread, it is vital for global organizations to effectively identify and manage cybersecurity incidents. This project contributes to addressing this necessity by creating an advanced classification system based on neural networks that automatically assigns categories to cyber incidents using text-based inputs. Utilizing a hierarchical method, the system discerns between general and detailed threat categories, enhancing its utility for security operations centers and response teams.
+This initiative incorporates cutting-edge natural language processing (NLP) techniques and deep learning frameworks to analyze and sort data from cyber incident reports. With a substantial dataset containing more than 31,000 incidents, the model is designed to optimize the triage process and enhance the speed of responses by automating the initial sorting of incidents. This document outlines the results, measurement metrics, and further enhancement suggestions related to the project.
 
 ## Significant Findings from NLP Analysis
 The analysis of cybersecurity incidents using natural language processing revealed several critical insights about the nature and distribution of cyber threats:
@@ -96,11 +98,9 @@ The analysis of cybersecurity incidents using natural language processing reveal
    - Establish feedback loop for continuous improvement
 
 ## Conclusion
-The cybersecurity incident classification system demonstrates promising results in automating the critical task of incident categorization, achieving a robust 74.15% accuracy in primary classification. The hierarchical approach proved effective for broad categorization while highlighting areas for improvement in subcategory classification. The system shows particular strength in identifying common cyber threats, especially in the financial fraud domain, while maintaining high precision for critical security incidents.
-
-However, the analysis also reveals important challenges, particularly in handling rare incident types and maintaining consistent performance across all subcategories. The class imbalance in the training data presents a clear opportunity for improvement through targeted data collection and advanced sampling techniques. The implementation plan outlined in this report addresses these challenges through a combination of short-term technical improvements and long-term strategic deployments.
-
-Looking ahead, the system's modular architecture and strong foundation in NLP provide a solid platform for future enhancements. With the proposed improvements and continued refinement, this classification system has the potential to significantly enhance cybersecurity incident response capabilities, enabling faster and more accurate threat assessment and response coordination.
+The cyber incident classification system has shown promising outcomes in automating the essential task of categorizing incidents, achieving an accuracy of 74.15% in primary classification. The hierarchical method is effective for broad categorizations, though it identifies areas that require enhancement in the classification of subcategories. The system is particularly adept at detecting prevalent cyber threats, notably within the domain of financial fraud, and it maintains high precision in crucial security scenarios.
+However, the evaluation also uncovers significant challenges, especially in processing uncommon incident types and achieving uniform performance across various subcategories. The training data's class imbalance highlights an opportunity for enhancement through focused data gathering and sophisticated sampling methods. The deployment strategy detailed in this report suggests a mix of immediate technical enhancements and broader strategic initiatives.
+Looking forward, the system's modular design and robust NLP foundation set the stage for future upgrades. With the suggested improvements and ongoing refinements, the classification system is poised to substantially improve the capabilities of cybersecurity incident responses, facilitating quicker, more precise threat identification and coordinated responses.
 
 ## References and Dependencies
 
@@ -118,8 +118,8 @@ Looking ahead, the system's modular architecture and strong foundation in NLP pr
 - Hierarchical classification architecture
 
 ### Academic References:
-1. Vaswani et al. (2017). "Attention Is All You Need"
-2. Devlin et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers"
+1. Vaswani et al. (2017 revised in 2023). "Attention Is All You Need"
+2. Devlin et al. (2018 revised in 2019). "BERT: Pre-training of Deep Bidirectional Transformers"
 
 ## Plagiarism Declaration
 I hereby declare that this report is my original work, and all sources used have been properly cited. The implementation uses standard libraries and follows ethical coding practices.
