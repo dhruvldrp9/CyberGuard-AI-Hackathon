@@ -5,6 +5,7 @@ Development of an NLP Model to guide citizens in filing cybercrime reports on th
 
 ## Introduction
 In a time when cyber threats are increasingly complex and widespread, it is vital for global organizations to effectively identify and manage cybersecurity incidents. This project contributes to addressing this necessity by creating an advanced classification system based on neural networks that automatically assigns categories to cyber incidents using text-based inputs. Utilizing a hierarchical method, the system discerns between general and detailed threat categories, enhancing its utility for security operations centers and response teams.
+
 This initiative incorporates cutting-edge natural language processing (NLP) techniques and deep learning frameworks to analyze and sort data from cyber incident reports. With a substantial dataset containing more than 31,000 incidents, the model is designed to optimize the triage process and enhance the speed of responses by automating the initial sorting of incidents. This document outlines the results, measurement metrics, and further enhancement suggestions related to the project.
 
 ## Significant Findings from NLP Analysis
@@ -99,7 +100,9 @@ The analysis of cybersecurity incidents using natural language processing reveal
 
 ## Conclusion
 The cyber incident classification system has shown promising outcomes in automating the essential task of categorizing incidents, achieving an accuracy of 74.15% in primary classification. The hierarchical method is effective for broad categorizations, though it identifies areas that require enhancement in the classification of subcategories. The system is particularly adept at detecting prevalent cyber threats, notably within the domain of financial fraud, and it maintains high precision in crucial security scenarios.
+
 However, the evaluation also uncovers significant challenges, especially in processing uncommon incident types and achieving uniform performance across various subcategories. The training data's class imbalance highlights an opportunity for enhancement through focused data gathering and sophisticated sampling methods. The deployment strategy detailed in this report suggests a mix of immediate technical enhancements and broader strategic initiatives.
+
 Looking forward, the system's modular design and robust NLP foundation set the stage for future upgrades. With the suggested improvements and ongoing refinements, the classification system is poised to substantially improve the capabilities of cybersecurity incident responses, facilitating quicker, more precise threat identification and coordinated responses.
 
 ## References and Dependencies
