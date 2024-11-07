@@ -125,5 +125,5 @@ Looking ahead, the system's modular architecture and strong foundation in NLP pr
 I hereby declare that this report is my original work, and all sources used have been properly cited. The implementation uses standard libraries and follows ethical coding practices.
 
 ---
-*Author: [Your Name]*  
+*Author: Dhruvkumar Patel, Vatsal Lavari*  
 *Date: November 7, 2024*
